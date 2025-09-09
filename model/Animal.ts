@@ -1,12 +1,12 @@
 export default class Animal {
     public name: string;
-    public year: number;
+    public age: number;
     public specie: string;
     public owner: string;
     
-    constructor (name: string, year: number, specie: string, owner: string){
+    constructor (name: string, age: number, specie: string, owner: string){
         this.name = name;
-        this.year = year;
+        this.age = age;
         this.specie = specie;
         this.owner = owner;
     }
@@ -19,12 +19,12 @@ export default class Animal {
         this.name = name;
     }
 
-    public getYear(): number{
-        return this.year;
+    public getAge(): number{
+        return this.age;
     }
 
-    public setYear(year: number): void{
-        this.year = year;
+    public setAge(age: number): void{
+        this.age = age;
     }
 
     public getSpecie(): string{
