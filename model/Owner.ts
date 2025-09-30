@@ -1,8 +1,0 @@
-import Person from "./Person";
-
-export default class Owner extends Person {
-
-    constructor (name: string, age: number){
-        super (name, age);
-    }
-}
